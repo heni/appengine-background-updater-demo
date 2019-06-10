@@ -5,6 +5,8 @@ Status](https://travis-ci.org/GoogleCloudPlatform/appengine-try-java.svg?branch=
 
 This sample is modified version of simple ["Hello World" application](https://github.com/GoogleCloudPlatform/appengine-try-java)
 
+Demo version of this code is deployed at [https://sample-java-project-243309.appspot.com/](https://sample-java-project-243309.appspot.com/)
+
 ## Before you begin
 
 1.  Download and install the [Google Cloud
