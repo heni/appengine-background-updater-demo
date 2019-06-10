@@ -1,10 +1,9 @@
-# Hello Google App Engine for Java™
+# Hello Google App Engine for Java™ with Background Threads
 
 [![Build
 Status](https://travis-ci.org/GoogleCloudPlatform/appengine-try-java.svg?branch=master)](https://travis-ci.org/GoogleCloudPlatform/appengine-try-java)
 
-This sample shows you how to deploy a simple "Hello World" application to
-[Google App Engine](https://cloud.google.com/appengine/docs/java/).
+This sample is modified version of simple ["Hello World" application](https://github.com/GoogleCloudPlatform/appengine-try-java)
 
 ## Before you begin
 
@@ -38,18 +37,6 @@ After the deploy finishes, you can view your application at
 `https://YOUR_PROJECT.appspot.com`, where `YOUR_PROJECT` is your Google Cloud
 project ID. You can see the new version deployed on the [App Engine section of
 the Google Cloud Console](https://console.cloud.google.com/appengine/versions).
-
-## Next steps
-
-1.  Read the [App Engine
-    documentation](https://cloud.google.com/appengine/docs/java/).
-1.  Explore the other [Google Cloud Platform sample
-    applications](https://github.com/GoogleCloudPlatform/java-docs-sample) for
-    Java™.
-
-## Contributing changes
-
-* See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 * ## Licensing
 
