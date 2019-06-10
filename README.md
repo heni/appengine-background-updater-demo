@@ -38,7 +38,7 @@ After the deploy finishes, you can view your application at
 project ID. You can see the new version deployed on the [App Engine section of
 the Google Cloud Console](https://console.cloud.google.com/appengine/versions).
 
-* ## Licensing
+## Licensing
 
 * See [LICENSE](LICENSE)
 
