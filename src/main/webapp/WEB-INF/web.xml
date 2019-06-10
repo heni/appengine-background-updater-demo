@@ -4,14 +4,20 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd">
 
 <web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
-    <servlet>
-        <servlet-name>demo</servlet-name>
-        <servlet-class>myapp.DemoServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>demo</servlet-name>
-        <url-pattern>/demo</url-pattern>
-    </servlet-mapping>
+    <filter>
+        <filter-name>guiceFilter</filter-name>
+        <filter-class>com.google.inject.servlet.GuiceFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>guiceFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <listener>
+        <listener-class>app.aifactory.ai.context.DemoGuiceServletContextListener</listener-class>
+    </listener>
+
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
